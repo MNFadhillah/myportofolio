@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio | Beranda</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <a href="#" class="text-2xl font-bold text-blue-600">MyPortofolio</a>
+      <div class="space-x-4">
+        <a href="index.html" class="hover:text-blue-600">Beranda</a>
+        <a href="about.html" class="hover:text-blue-600">Tentang</a>
+        <a href="portfolio.html" class="hover:text-blue-600">Portofolio</a>
+        <a href="contact.html" class="hover:text-blue-600">Kontak</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="bg-blue-600 text-white py-20">
+    <div class="container mx-auto text-center">
+      <h1 class="text-5xl font-bold mb-4">Selamat Datang di Portofolio Saya</h1>
+      <p class="text-lg mb-6">Saya adalah seorang mahasiswa dengan minat dalam pengembangan web dan desain.</p>
+      <a href="#about" class="inline-block bg-white text-blue-600 py-2 px-6 rounded-lg text-lg hover:bg-blue-500 hover:text-white transition duration-300">Lebih Lanjut</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-white" data-aos="fade-up">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold text-blue-600 mb-4">Tentang Saya</h2>
+      <p class="text-lg mb-8">Saya seorang mahasiswa dengan passion dalam pengembangan web, desain UI/UX, dan pengembangan aplikasi. Saya selalu bersemangat untuk belajar teknologi terbaru dan menerapkannya dalam proyek-proyek saya.</p>
+      <img src="https://via.placeholder.com/150" alt="Profil" class="mx-auto rounded-full mb-6">
+      <p class="text-lg">Dengan pengalaman dalam HTML, CSS, JavaScript, dan beberapa framework seperti React dan Laravel, saya siap untuk mengerjakan proyek-proyek kreatif dan inovatif.</p>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="py-20 bg-gray-100" data-aos="fade-up">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold text-blue-600 mb-8">Portofolio Saya</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 shadow-lg rounded-lg" data-aos="fade-up">
+          <img src="https://via.placeholder.com/300x200" alt="Project 1" class="mb-4 rounded-lg">
+          <h3 class="text-xl font-semibold mb-2">Proyek 1</h3>
+          <p class="text-gray-600">Deskripsi singkat tentang proyek 1 yang saya kerjakan. Menggunakan HTML, CSS, dan JavaScript.</p>
+        </div>
+        <div class="bg-white p-6 shadow-lg rounded-lg" data-aos="fade-up">
+          <img src="https://via.placeholder.com/300x200" alt="Project 2" class="mb-4 rounded-lg">
+          <h3 class="text-xl font-semibold mb-2">Proyek 2</h3>
+          <p class="text-gray-600">Deskripsi singkat tentang proyek 2. Menerapkan prinsip desain UI/UX yang responsif.</p>
+        </div>
+        <div class="bg-white p-6 shadow-lg rounded-lg" data-aos="fade-up">
+          <img src="https://via.placeholder.com/300x200" alt="Project 3" class="mb-4 rounded-lg">
+          <h3 class="text-xl font-semibold mb-2">Proyek 3</h3>
+          <p class="text-gray-600">Deskripsi singkat tentang proyek 3. Menggunakan Laravel dan MySQL untuk pengembangan back-end.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-blue-600 text-white" data-aos="fade-up">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-6">Kontak Saya</h2>
+      <p class="text-lg mb-8">Jangan ragu untuk menghubungi saya jika Anda tertarik untuk bekerja sama atau ingin mendiskusikan proyek bersama!</p>
+      <form action="#" class="max-w-lg mx-auto">
+        <input type="text" placeholder="Nama Anda" class="w-full p-4 mb-4 rounded-lg text-gray-700" required>
+        <input type="email" placeholder="Email Anda" class="w-full p-4 mb-4 rounded-lg text-gray-700" required>
+        <textarea placeholder="Pesan Anda" class="w-full p-4 mb-4 rounded-lg text-gray-700" rows="4" required></textarea>
+        <button type="submit" class="w-full bg-white text-blue-600 py-3 rounded-lg hover:bg-blue-500 hover:text-white transition duration-300">Kirim Pesan</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center py-4">
+    &copy; 2024 Muhammad Nur Fadhillah. All rights reserved.
+  </footer>
+
+  <script>
+    // Initialize AOS (Animate On Scroll)
+    AOS.init();
+  </script>
+</body>
+
+</html>

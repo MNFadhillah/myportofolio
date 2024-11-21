@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio | Kontak</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <a href="#" class="text-2xl font-bold text-blue-600">MyPortofolio</a>
+      <div class="space-x-4">
+        <a href="index.html" class="hover:text-blue-600">Beranda</a>
+        <a href="about.html" class="hover:text-blue-600">Tentang</a>
+        <a href="portfolio.html" class="hover:text-blue-600">Portofolio</a>
+        <a href="contact.html" class="hover:text-blue-600">Kontak</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact Section -->
+  <section class="py-20">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold mb-6 text-center">Hubungi Saya</h2>
+
+      <!-- Contact Form -->
+      <div class="lg:flex justify-between gap-10">
+        <div class="w-full lg:w-1/2">
+          <form class="space-y-4">
+            <input type="text" class="block w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="Nama Anda" required>
+            <input type="email" class="block w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="Email Anda" required>
+            <textarea class="block w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-600" rows="5" placeholder="Pesan Anda" required></textarea>
+            <button type="submit" class="bg-blue-600 text-white py-2 px-4 rounded w-full hover:bg-blue-700 transition">Kirim</button>
+          </form>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="w-full lg:w-1/3 mt-10 lg:mt-0">
+          <h3 class="text-xl font-semibold mb-4">Informasi Kontak</h3>
+          <ul class="space-y-3">
+            <li class="flex items-center space-x-3">
+              <span class="font-semibold">📞</span><span>+62 123 456 789</span>
+            </li>
+            <li class="flex items-center space-x-3">
+              <span class="font-semibold">📧</span><span>email@domain.com</span>
+            </li>
+            <li class="flex items-center space-x-3">
+              <span class="font-semibold">📍</span><span>Jl. Contoh No. 123, Kota, Negara</span>
+            </li>
+            <li class="flex items-center space-x-3">
+              <span class="font-semibold">🌐</span><span><a href="https://www.linkedin.com/in/username" class="hover:text-blue-600">LinkedIn</a></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Google Map -->
+      <div class="mt-12">
+        <h3 class="text-xl font-semibold mb-4 text-center">Lokasi Kami</h3>
+        <div class="w-full h-64 md:h-96">
+          <iframe class="w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3174.737923752299!2d106.68261412598255!3d-6.204242762298504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6980e469d4c1f7%3A0xf8fc4ccfe5102412!2sUniversitas%20Lambung%20Mangkurat!5e0!3m2!1sid!2sid!4v1633916674979!5m2!1sid!2sid" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center py-4">
+    &copy; 2024 Muhammad Nur Fadhillah. All rights reserved.
+  </footer>
+</body>
+</html>
